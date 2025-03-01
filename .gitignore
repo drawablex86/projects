@@ -6,3 +6,5 @@ package-lock.json
 .env
 .netlify/
 .env
+
+node_modules

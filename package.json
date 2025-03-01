@@ -6,7 +6,9 @@
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "tina-dev": "tinacms dev -c \"npm run serve\"",
+    "tina-build": "tinacms build && npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,7 @@
     "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-img": "^4.0.2",
     "@netlify/plugin-lighthouse": "^6.0.0",
-    "@tinacms/cli": "^1.4.1",
+    "@tinacms/cli": "^1.9.2",
     "clean-css": "^5.3.3",
     "dotenv": "^16.4.5",
     "eleventy-plugin-helmet": "^0.2.2",
@@ -36,7 +38,7 @@
     "markdown-it": "^14.1.0",
     "netlify-plugin-11ty": "^1.4.0",
     "netlify-plugin-csp-generator": "^1.6.1",
-    "tinacms": "^1.4.1",
+    "tinacms": "^1.6.7",
     "uglify-js": "^3.19.2"
   }
 }
