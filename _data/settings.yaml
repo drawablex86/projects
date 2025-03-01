@@ -6,7 +6,7 @@ metadata:
   site_title: Works
   # site subtitles are optional
   site_subtitle_1: Art, Photography & Design
-  site_subtitle_2: by Rahul Rajeev
+  site_subtitle_2: "by [Rahul Rajeev](https://rahulrajeev.net/)"
   # Home page description, accepts markdown
   site_description: >
     An online gallery for some of the works that I have done. Mostly personal projects and explorations.
@@ -26,7 +26,7 @@ metadata:
     site_title: Works of Rahul Rajeev
     # meta description
     site_description: >-
-      An only gallery for the collected works of Rahul Rajeev
+      A gallery for the collected works of Rahul Rajeev
     # Adds a noindex <meta> tag on all site pages, be careful y'all!
     # Instead you can block indexing per-project with no_index: true
     no_index: false

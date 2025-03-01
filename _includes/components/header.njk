@@ -16,7 +16,7 @@
 		{% endif %}
 
 		{% if settings.metadata.site_subtitle_2 %}
-			<span class="grid__item">{{ settings.metadata.site_subtitle_2 }}</span>
+			<span class="grid__item">{{ settings.metadata.site_subtitle_2 | renderUsingMarkdown | safe }}</span>
 		{% endif %}
 
 		{% if settings.theme.theme_features.enable_dark_mode %}

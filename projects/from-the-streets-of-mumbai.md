@@ -2,7 +2,7 @@
 draft: false
 title: From the Streets of Mumbai
 description: |
-  Architectural charm of the city of dream through my lens.
+  Architectural charm of the city of dreams through my lens.
 year: 2024
 images:
   - src: /assets/uploads/Rustico.JPG
