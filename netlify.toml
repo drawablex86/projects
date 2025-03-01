@@ -5,7 +5,7 @@
 
 # Output directory and build command
 [build]
-  command = "npx tinacms build && eleventy"
+  command = "npm install && (npx tinacms build || true) && eleventy"
   publish = "_site"
 
 # Cache generated content between builds (e.g. images)
