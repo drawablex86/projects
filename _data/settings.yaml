@@ -9,11 +9,11 @@ metadata:
   site_subtitle_2: by Rahul Rajeev
   # Home page description, accepts markdown
   site_description: >
-    An online gallery for some of the works that I have done. Mostly personal projects and exploration.
+    An online gallery for some of the works that I have done. Mostly personal projects and explorations.
   # footer contact email
   site_email: hi@rahulrajeev.net
   # footer social link (the social title is defined in the i18n section)
-  site_social_url: 'https://github.com/danurbanowicz/halide'
+  site_social_url: 'https://instagram.com/rdrawsstuff'
   # SVG image used for sharing/bookmark icons
   site_icon_svg: /assets/uploads/favicon.svg
   # optional PNG image used for sharing/bookmark icons
